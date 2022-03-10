@@ -15,6 +15,8 @@ const headingEl = document.getElementById('heading-el');
 const caleInputEl = document.querySelector('input[type="date"]');
 caleInputEl.value = new Date(ramazan.valueAsDate);
 
+headingEl.classList.add
+
 // setting minimum value of calender to current date.
 caleInputEl.setAttribute("min", today);
 
@@ -49,6 +51,7 @@ function countdown(dateCame) {
     }
     // calender();
 }
+
 
 function formateTime(time) {
     // this adds 0 if the time(min, sec, hours, or days) is less than 10 then 0 will be added before that value.
